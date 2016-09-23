@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Docker
 ============
 
@@ -35,3 +36,6 @@ Run Integration Tests
 sudo docker-compose -f docker-compose-dev.yml up integ
 ```
 
+=======
+# books-ms-centos
+>>>>>>> d1600fd41b706c3e711c4d45f6c7a87d2f43a2b6
