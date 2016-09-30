@@ -45,6 +45,7 @@ ADD run_tests.sh /source/run_tests.sh
 
 # Dependencies
 RUN cd /source && sbt update
+RUN git  config --global url."https://".insteadOf git:// 
 RUN cd /source/client && npm install && bower install --allow-root --config.interactive=false -s
 
 # Envs
