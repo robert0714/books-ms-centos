@@ -7,7 +7,7 @@ Build Tests
 ```bash
 sudo docker build -t 192.168.57.27/books-ms-centos-tests -f Dockerfile.test .
     
-sudo docker push 192.168.57.27/books-ms-centos-tests
+sudo docker push 192.168.57.27:5000/books-ms-centos-tests
 ```
 
 Test and Build
