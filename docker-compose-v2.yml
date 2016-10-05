@@ -3,11 +3,11 @@ version: '2'
 services:
 
   base:
-    image: 10.100.198.200:5000/books-ms
+    image:  192.168.57.27:5000/books-ms-centos
     ports:
       - 8080
     environment:
-      - SERVICE_NAME=books-ms
+      - SERVICE_NAME=books-ms-centos
 
   app:
     extends:
