@@ -3,7 +3,7 @@ base:
   ports:
     - 8080
   environment:
-    - SERVICE_NAME=books-ms
+    - SERVICE_NAME=books-ms-centos
 
 app:
   extends:
@@ -15,7 +15,7 @@ app-blue:
   extends:
     service: base
   environment:
-    - SERVICE_NAME=books-ms-blue
+    - SERVICE_NAME=books-ms-centos-blue
   links:
     - db:db
 
@@ -23,7 +23,7 @@ app-green:
   extends:
     service: base
   environment:
-    - SERVICE_NAME=books-ms-green
+    - SERVICE_NAME=books-ms-centos-green
   links:
     - db:db
 
