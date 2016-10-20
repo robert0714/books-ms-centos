@@ -1,5 +1,5 @@
-upstream books-ms {
-    {{range service "books-ms" "any"}}
+upstream books-ms-centos {
+    {{range service "books-ms-centos" "any"}}
     server {{.Address}}:{{.Port}};
     {{end}}
 }
