@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-docker pull vfarcic/books-ms-tests
+docker pull 192.168.57.29:5000/books-ms-centos-tests
 
 cd /vagrant
 
