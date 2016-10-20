@@ -2,6 +2,7 @@ node("cd") {
     def serviceName = "books-ms-centos"
     def prodIp = "192.168.57.31"
     def proxyIp = "192.168.57.31"
+    def proxyNode = "prod"
     def registryIpPort = "192.168.57.29:5000"
     
     def flow = load "/data/scripts/workflow-util.groovy"
