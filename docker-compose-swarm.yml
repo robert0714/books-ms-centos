@@ -1,5 +1,5 @@
 app:
-  image:  192.168.57.27:5000/books-ms-centos
+  image:  192.168.57.29:5000/books-ms-centos
   ports:
     - 8080
   net: books-ms
@@ -21,7 +21,7 @@ app-green:
 
 db:
   container_name: books-ms-db
-  image: mongo
+  image: 192.168.57.29:5000/mongo
   net: books-ms
   environment:
     - SERVICE_NAME=books-ms-db
