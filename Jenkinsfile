@@ -1,11 +1,12 @@
 node("cd") {
     def serviceName = "books-ms-centos"
-    def prodIp = "192.168.57.31"
-    def proxyIp = "192.168.57.31"
-    def swarmNode = "swarm-master"
+    def prodIp = "192.168.57.50"
+    def proxyIp = "192.168.57.50"
     def proxyNode = "swarm-master"
+    def swarmNode = "swarm-master"
+    
     def registryIpPort = "192.168.57.27:5000"
-    def swarmPlaybook = "swarm-healing.yml"
+    def swarmPlaybook = "swarm.yml"
     def proxyPlaybook = "swarm-proxy.yml"
     def instances = 1
 
