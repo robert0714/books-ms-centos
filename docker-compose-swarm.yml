@@ -9,13 +9,13 @@ app:
 
 app-blue:
   environment:
-    - SERVICE_NAME=books-ms-blue
+    - SERVICE_NAME=books-ms-centos-blue
   extends:
     service: app
 
 app-green:
   environment:
-    - SERVICE_NAME=books-ms-green
+    - SERVICE_NAME=books-ms-centos-green
   extends:
     service: app
 
