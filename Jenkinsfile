@@ -1,7 +1,7 @@
 node("cd") {
     def serviceName = "books-ms-centos"
-    def prodIp = "192.168.57.31"
-    def proxyIp = "192.168.57.31"
+    def prodIp = "192.168.57.50"
+    def proxyIp = "192.168.57.50"
     def swarmNode = "swarm-master"
     def proxyNode = "swarm-master"
     def registryIpPort = "192.168.57.27:5000"
