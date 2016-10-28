@@ -5,7 +5,7 @@ node("cd") {
     def swarmNode = "swarm-master"
     def proxyNode = "swarm-master"
     def registryIpPort = "192.168.57.27:5000"
-    def swarmPlaybook = "swarm-healing.yml"
+    def swarmPlaybook = "swarm-healing-centos.yml"
     def proxyPlaybook = "swarm-proxy.yml"
     def instances = 1
 
