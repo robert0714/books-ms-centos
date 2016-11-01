@@ -1,6 +1,6 @@
 {
   "service": {
-    "name": "books-ms",
+    "name": "books-ms-centos",
     "tags": ["service"],
     "port": 80,
     "address": "{{key "proxy/ip"}}",
