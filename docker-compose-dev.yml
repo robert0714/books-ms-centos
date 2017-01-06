@@ -18,6 +18,7 @@ tests:
     - ./client/wct-complete.conf.js:/source/client/wct.conf.js
     - /data/tests/db:/data/db
   environment:
+    - COMPOSE_HTTP_TIMEOUT=200
     - TEST_TYPE=all
 
 testsLocal:
